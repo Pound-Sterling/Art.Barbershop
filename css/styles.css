@@ -370,6 +370,11 @@ body {
   margin-top: 5px;
   font-size: 16px;
   font-weight: 400;
+  line-height: 120%;
+  max-width: 520px;
+}
+.info__item h3 > :not(:last-child) {
+  margin-bottom: 3px;
 }
 .info__item a {
   text-decoration: underline;
@@ -380,8 +385,7 @@ body {
 /* service */ /* service */ /* service */ /* service */ /* service */ /* service */ /* service */ /* service */
 
 .service {
-  padding: 30px 0;
-  border-bottom: 2px solid var(--primary);
+  padding: 30px 0 0 0;
 }
 .title {
   font-size: 26px;
@@ -399,11 +403,11 @@ body {
   display: flex;
   flex-direction: column;
 }
-.staff:not(:last-child) {
+.staff {
   padding-bottom: 30px;
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 1px solid var(--primary);
 }
-.staff:not(:first-child) {
+.staff {
   padding-top: 30px;
 }
 
